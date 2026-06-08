@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parecer de Comitê | Afrika Tecnologia</title>
+<style>
+:root{
+  --blue:#0F2044;
+  --blue2:#17315f;
+  --fuchsia:#EC008C;
+  --teal:#00A6A6;
+  --gray:#DADADA;
+  --bg:#F5F6F8;
+  --text:#172033;
+  --muted:#647084;
+  --line:#DDE2EA;
+  --green:#10B981;
+  --amber:#F59E0B;
+  --red:#EF4444;
+}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.45} .wrap{max-width:1120px;margin:0 auto;padding:28px}
+.header{background:linear-gradient(135deg,var(--blue),#071327);color:#fff;padding:28px;border-radius:24px;position:relative;overflow:hidden;box-shadow:0 20px 50px rgba(15,32,68,.18)}
+.header:after{content:"";position:absolute;right:-90px;top:-90px;width:260px;height:260px;border-radius:50%;background:rgba(236,0,140,.2)}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#b9f3ef;font-weight:800}.title{font-size:38px;margin:10px 0 8px;font-weight:900;letter-spacing:-.03em}.sub{font-size:16px;color:#d9e4f4;max-width:820px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.pill{border:1px solid rgba(255,255,255,.24);padding:8px 12px;border-radius:999px;color:#fff;background:rgba(255,255,255,.08);font-weight:700;font-size:12px}
+.grid{display:grid;gap:18px}.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:1fr 1fr}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 10px 30px rgba(17,24,39,.05)}
+.section{margin-top:18px}.section-title{font-size:20px;font-weight:900;color:var(--blue);margin:0 0 12px}.small{font-size:13px;color:var(--muted)}.big{font-size:32px;font-weight:900;letter-spacing:-.03em}.label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}.value{font-size:18px;font-weight:900;color:var(--blue);margin-top:4px}.ok{color:var(--green)}.warn{color:var(--amber)}.bad{color:var(--red)}
+.decision{border-left:8px solid var(--amber)}.decision .headline{font-size:28px;font-weight:950;color:var(--blue);letter-spacing:-.02em}.decision .headline span{color:var(--amber)}
+table{width:100%;border-collapse:collapse;font-size:14px} th{text-align:left;color:var(--blue);font-size:12px;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid var(--line);padding:10px 8px} td{border-bottom:1px solid #edf0f5;padding:12px 8px;vertical-align:top} tr:last-child td{border-bottom:0}.tag{display:inline-block;padding:6px 10px;border-radius:999px;font-weight:900;font-size:12px}.tag.green{background:#E8F8F3;color:#047857}.tag.amber{background:#FFF3DA;color:#B45309}.tag.red{background:#FEE2E2;color:#B91C1C}.tag.blue{background:#E8EEF9;color:#17315f}
+.risk{display:grid;grid-template-columns:100px 1fr;gap:14px;padding:16px;border:1px solid var(--line);border-radius:16px;background:#fff}.risk .level{font-weight:950;font-size:12px;letter-spacing:.08em;text-transform:uppercase}.risk .rtitle{font-weight:950;color:var(--blue);margin-bottom:4px}.risk .rtext{color:#344054;font-size:14px}.level.red{color:var(--red)}.level.amber{color:var(--amber)}.level.green{color:var(--green)}
+.callout{background:linear-gradient(135deg,#fff,#f8fafc);border:1px solid var(--line);border-radius:20px;padding:20px}.callout strong{color:var(--blue)}.footer{font-size:12px;color:var(--muted);text-align:center;margin:24px 0}.bar{height:10px;background:#EEF2F7;border-radius:999px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--fuchsia),var(--teal))}.money{font-variant-numeric:tabular-nums}.print{position:fixed;right:18px;bottom:18px;background:var(--blue);color:white;border:0;border-radius:999px;padding:12px 18px;font-weight:900;box-shadow:0 10px 30px rgba(0,0,0,.2);cursor:pointer}
+@media(max-width:850px){.g3,.g2{grid-template-columns:1fr}.risk{grid-template-columns:1fr}.title{font-size:30px}.wrap{padding:16px}.print{display:none}}
+@media print{body{background:#fff}.wrap{max-width:100%;padding:0}.card,.header{box-shadow:none}.print{display:none}.section{page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<button class="print" onclick="window.print()">Exportar PDF</button>
+<div class="wrap">
+  <div class="header">
+    <div class="eyebrow">Parecer executivo de comitê</div>
+    <div class="title">Afrika Tecnologia</div>
+    <div class="sub">Análise objetiva para decisão de crédito, cruzando visita online, Serasa, CreditBox, BACEN/SCR, documentação contábil, IR dos sócios e carteira de recebíveis.</div>
+    <div class="meta">
+      <span class="pill">CNPJ 19.925.865/0001-97</span>
+      <span class="pill">Fundada em 21/03/2014</span>
+      <span class="pill">Segmento: Segurança da Informação</span>
+      <span class="pill">Data base: 08/06/2026</span>
+    </div>
+  </div>
+
+  <div class="section grid g3">
+    <div class="card decision" style="grid-column:span 2">
+      <div class="label">posição do comitê</div>
+      <div class="headline">Aprovar com ressalvas. <span>Não liberar R$ 1 milhão de largada.</span></div>
+      <p>A empresa tem operação real, clientes fortes, histórico operacional longo e Serasa limpo. O risco não está na existência do negócio, está na estrutura de capital: passivo bancário elevado, patrimônio líquido contábil negativo, caixa contábil baixo e dependência de antecipações para atravessar descasamento de fluxo.</p>
+      <p><strong>Recomendação objetiva:</strong> aprovar limite inicial de até <strong>R$ 600 mil</strong>, com operação casada a recebíveis formalizados, sacados confirmados, duplicidade checada e evolução para até <strong>R$ 1 milhão</strong> apenas após histórico de liquidação limpo por 60 a 90 dias.</p>
+    </div>
+    <div class="card">
+      <div class="label">risco final</div>
+      <div class="big warn">Médio</div>
+      <p class="small">Bom risco comercial, risco financeiro relevante. Crédito deve ser estruturado, não aberto como limite solto.</p>
+      <div class="bar"><i style="width:62%"></i></div>
+    </div>
+  </div>
+
+  <div class="section grid g3">
+    <div class="card"><div class="label">Serasa cedente</div><div class="value ok">Sem restrições</div><p class="small">PEFIN, REFIN, protestos, ações judiciais, cheques e dívidas vencidas sem apontamentos no relatório.</p></div>
+    <div class="card"><div class="label">CreditBox/VADU</div><div class="value ok">Score 930</div><p class="small">CNPJ ativo e classificado como baixo risco, com sanções nacionais e internacionais sem apontamento.</p></div>
+    <div class="card"><div class="label">BACEN empresa</div><div class="value warn">R$ 5,17 mi a vencer</div><p class="small">Há R$ 26,7 mil vencidos no SCR, baixo percentual, mas confirma forte alavancagem financeira.</p></div>
+  </div>
+
+  <div class="section card">
+    <div class="section-title">Riscos que realmente importam</div>
+    <div class="grid">
+      <div class="risk"><div class="level red">Crítico</div><div><div class="rtitle">Patrimônio líquido contábil negativo e passivo circulante pesado</div><div class="rtext">O balanço de 2025 fecha com ativo total de R$ 4,89 mi, ativo circulante de R$ 1,35 mi e passivo circulante de R$ 9,84 mi. Há lucros/prejuízos acumulados de R$ 5,97 mi devedor, o que fragiliza a capacidade patrimonial da empresa como segunda saída.</div></div></div>
+      <div class="risk"><div class="level red">Crítico</div><div><div class="rtitle">Endividamento financeiro relevante</div><div class="rtext">O passivo contábil mostra R$ 5,76 mi em empréstimos em 2025, enquanto o SCR do BACEN mostra R$ 5,17 mi em créditos a vencer. A empresa não está quebrada, mas está fortemente financiada por terceiros.</div></div></div>
+      <div class="risk"><div class="level amber">Alto</div><div><div class="rtitle">Custo financeiro consome resultado</div><div class="rtext">Em 2025, a empresa voltou a apresentar resultado positivo de R$ 748,8 mil, mas registrou R$ 1,48 mi em juros sobre empréstimos e R$ 355,4 mil em juros de mora. Em 2024, houve prejuízo de R$ 177,7 mil e despesa financeira de R$ 1,89 mi. A melhora existe, mas ainda é sensível ao custo da dívida.</div></div></div>
+      <div class="risk"><div class="level amber">Alto</div><div><div class="rtitle">Necessidade de crédito é fluxo, não investimento produtivo isolado</div><div class="rtext">A visita indicou descasamento de 60 a 90 dias e necessidade estimada de R$ 1 mi para três contratos. O próprio cliente reconhece que o descasamento real pode ser menor. Isso pede limite rotativo controlado por lastro, não liberação cheia antecipada.</div></div></div>
+      <div class="risk"><div class="level amber">Médio</div><div><div class="rtitle">Recebíveis bons, mas precisam de validação título a título</div><div class="rtext">A carteira projetada de R$ 11,03 mi é positiva, com R$ 8,16 mi em contas a receber e R$ 2,88 mi em renovações. O ponto de atenção é que pipeline não é lastro aprovado. Só deve entrar o que estiver contratado, vencível em até 90 dias, confirmado pelo sacado e sem duplicidade no CRDC/Núclea.</div></div></div>
+      <div class="risk"><div class="level amber">Médio</div><div><div class="rtitle">Garantia patrimonial existe, mas precisa de matrícula e ônus</div><div class="rtext">Márcio declara R$ 1,02 mi em bens, incluindo imóveis, e R$ 370,9 mil em dívidas. Adriano declara R$ 2,50 mi em bens e R$ 271,9 mil em dívidas. Esses bens ajudam na tese de aval, mas só pesam depois de matrícula, ônus reais, regime de casamento e anuência de cônjuge.</div></div></div>
+    </div>
+  </div>
+
+  <div class="section grid g2">
+    <div class="card">
+      <div class="section-title">Leitura financeira</div>
+      <table>
+        <tr><th>Indicador</th><th>2023</th><th>2024</th><th>2025</th><th>Leitura</th></tr>
+        <tr><td>Receita líquida/receitas</td><td class="money">R$ 7,16 mi</td><td class="money">R$ 8,51 mi</td><td class="money">R$ 7,91 mi</td><td>Base de receita relevante, mas sem crescimento linear.</td></tr>
+        <tr><td>Resultado</td><td class="money bad">-R$ 1,31 mi</td><td class="money bad">-R$ 177,7 mil</td><td class="money ok">R$ 748,8 mil</td><td>Recuperação em 2025, ainda contra histórico de prejuízo.</td></tr>
+        <tr><td>Caixa/disponível</td><td class="money">R$ 579,0 mil</td><td class="money bad">R$ 7,2 mil</td><td class="money warn">R$ 72,7 mil</td><td>Liquidez imediata baixa para o porte do passivo.</td></tr>
+        <tr><td>Empréstimos contábeis</td><td class="money">R$ 5,91 mi</td><td class="money">R$ 6,20 mi</td><td class="money">R$ 5,76 mi</td><td>Alavancagem persistente.</td></tr>
+        <tr><td>Duplicatas a receber líquidas</td><td class="money">R$ 1,76 mi</td><td class="money">R$ 805,4 mil</td><td class="money">R$ 486,1 mil</td><td>Carteira contábil menor que a carteira comercial projetada, exigindo conciliação.</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <div class="section-title">Bureaus e sócios</div>
+      <table>
+        <tr><th>Fonte</th><th>Resultado</th><th>Leitura</th></tr>
+        <tr><td>Serasa CNPJ</td><td><span class="tag green">Limpo</span></td><td>Sem PEFIN, REFIN, protesto, cheque, ação judicial ou dívida vencida.</td></tr>
+        <tr><td>CreditBox</td><td><span class="tag green">Score 930</span></td><td>Baixo risco cadastral, empresa ativa, sem sanções relevantes.</td></tr>
+        <tr><td>BACEN CNPJ</td><td><span class="tag amber">R$ 5,17 mi</span></td><td>Carteira alta e R$ 26,7 mil vencidos, sem prejuízo.</td></tr>
+        <tr><td>BACEN Márcio</td><td><span class="tag amber">R$ 1,66 mi</span></td><td>Exposição PF relevante, sem vencidos ou prejuízo.</td></tr>
+        <tr><td>BACEN Adriano</td><td><span class="tag green">R$ 207,5 mil</span></td><td>Sem vencidos ou prejuízo.</td></tr>
+        <tr><td>BACEN sócio adicional</td><td><span class="tag amber">Prejuízo R$ 2,7 mil</span></td><td>Valor pequeno, mas deve ser identificado formalmente antes de aval.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="section card">
+    <div class="section-title">Qualidade dos recebíveis</div>
+    <table>
+      <tr><th>Item</th><th>Dado observado</th><th>Impacto de crédito</th></tr>
+      <tr><td>Portfólio mapeado</td><td class="money">R$ 11,03 mi de mar/26 a mar/27</td><td>Boa visibilidade comercial, mas parte é pipeline de renovação.</td></tr>
+      <tr><td>Contas a receber documentadas</td><td class="money">R$ 8,16 mi, 73,9% do portfólio</td><td>Base suficiente para montar operação com lastro.</td></tr>
+      <tr><td>Renovações/pipeline</td><td class="money">R$ 2,88 mi, 26,1% do portfólio</td><td>Não deve compor limite até contrato formalizado.</td></tr>
+      <tr><td>Top 1</td><td>Livelo, 20,9% do portfólio</td><td>Concentração aceitável se houver confirmação e prazo curto.</td></tr>
+      <tr><td>Top 5</td><td>R$ 4,92 mi, 44,6% do portfólio</td><td>Exige teto por sacado e monitoramento mensal.</td></tr>
+      <tr><td>Sacados citados</td><td>Livelo, Alelo, Raízen, Magalu, SKY, CCR, BTG/PAN, Cogna</td><td>Qualidade dos devedores favorece a operação, desde que a cessão seja o pagamento direto da fonte pagadora.</td></tr>
+    </table>
+  </div>
+
+  <div class="section card">
+    <div class="section-title">Condições mínimas para liberar crédito</div>
+    <table>
+      <tr><th>Condição</th><th>Obrigatoriedade</th><th>Motivo</th></tr>
+      <tr><td>Limite inicial</td><td><strong>Até R$ 600 mil</strong></td><td>Compatível com risco médio, BACEN alto e necessidade declarada ainda não totalmente provada.</td></tr>
+      <tr><td>Prazo máximo por título</td><td><strong>90 dias</strong></td><td>Casar com ciclo de recebimento informado pelo cliente.</td></tr>
+      <tr><td>Lastro</td><td><strong>Contrato, NF, aceite/medição ou confirmação do sacado</strong></td><td>Sem confirmação, não operar.</td></tr>
+      <tr><td>Duplicidade</td><td><strong>Consulta CRDC/Núclea antes de cada cessão</strong></td><td>Cliente já usa Omie e portais de antecipação, então o risco de dupla cessão precisa ser eliminado operacionalmente.</td></tr>
+      <tr><td>Pagamento</td><td><strong>Preferencialmente direto do sacado para conta indicada/travada</strong></td><td>Evitar que o recurso passe livre pelo cedente em estrutura já alavancada.</td></tr>
+      <tr><td>Garantias</td><td><strong>Aval de Márcio e Adriano, condicionado a matrícula/ônus</strong></td><td>Há patrimônio declarado, mas a garantia só é real depois de comprovada.</td></tr>
+      <tr><td>Fundo de reserva</td><td><strong>10% a 15% no início</strong></td><td>Amortece atraso curto de sacado e reduz exposição do FIDC.</td></tr>
+      <tr><td>Esteira de aumento</td><td><strong>R$ 1 milhão apenas após 60 a 90 dias sem atraso</strong></td><td>Permite testar liquidação real antes de ampliar exposição.</td></tr>
+    </table>
+  </div>
+
+  <div class="section callout">
+    <div class="section-title">Decisão recomendada</div>
+    <p><strong>Aprovar operação estruturada de antecipação de recebíveis para Afrika, com limite inicial de até R$ 600 mil, prazo máximo de 90 dias, preferência por sacados de primeira linha e liberação condicionada à validação documental de cada título.</strong></p>
+    <p>Eu não aprovaria R$ 1 milhão imediatamente porque o crédito novo entraria sobre uma estrutura já alavancada, com passivo bancário elevado e patrimônio líquido contábil negativo. O caminho mais seguro é transformar a qualidade dos sacados em proteção efetiva para o FIDC: cessão perfeita, confirmação, trava de pagamento e monitoramento. Se a carteira liquidar bem nos primeiros ciclos, a operação pode subir para R$ 1 milhão com base em comportamento, não em expectativa.</p>
+  </div>
+
+  <div class="footer">Fonte: documentação enviada pela AG Antecipa, relatórios VADU/CreditBox, BACEN/SCR, Serasa, balanços/balancetes, declaração de faturamento, IRPF dos sócios e resumo de visita online. Documento preparado para decisão executiva de comitê.</div>
+</div>
+</body>
+</html>
