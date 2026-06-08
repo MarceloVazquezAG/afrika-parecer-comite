@@ -39,7 +39,7 @@ table{width:100%;border-collapse:collapse;font-size:14px} th{text-align:left;col
   <div class="header">
     <div class="eyebrow">Parecer executivo de comitê</div>
     <div class="title">Afrika Tecnologia</div>
-    <div class="sub">Análise objetiva para decisão de crédito, cruzando visita online, Serasa, CreditBox, BACEN/SCR, documentação contábil, IR dos sócios e carteira de recebíveis.</div>
+    <div class="sub">Análise objetiva para decisão de crédito, cruzando visita online, Serasa, CreditBox, BACEN/SCR, documentação contábil, IR dos sócios, movimentações societárias, sazonalidade de faturamento e carteira de recebíveis.</div>
     <div class="meta">
       <span class="pill">CNPJ 19.925.865/0001-97</span>
       <span class="pill">Fundada em 21/03/2014</span>
@@ -51,21 +51,21 @@ table{width:100%;border-collapse:collapse;font-size:14px} th{text-align:left;col
   <div class="section grid g3">
     <div class="card decision" style="grid-column:span 2">
       <div class="label">posição do comitê</div>
-      <div class="headline">Aprovar com ressalvas. <span>Não liberar R$ 1 milhão de largada.</span></div>
-      <p>A empresa tem operação real, clientes fortes, histórico operacional longo e Serasa limpo. O risco não está na existência do negócio, está na estrutura de capital: passivo bancário elevado, patrimônio líquido contábil negativo, caixa contábil baixo e dependência de antecipações para atravessar descasamento de fluxo.</p>
-      <p><strong>Recomendação objetiva:</strong> aprovar limite inicial de até <strong>R$ 600 mil</strong>, com operação casada a recebíveis formalizados, sacados confirmados, duplicidade checada e evolução para até <strong>R$ 1 milhão</strong> apenas após histórico de liquidação limpo por 60 a 90 dias.</p>
+      <div class="headline">Aprovar com forte conservadorismo. <span>Limite sugerido: R$ 250 mil.</span></div>
+      <p>A empresa possui operação real, clientes relevantes, histórico operacional longo e Serasa limpo. Ainda assim, a análise documental indica pontos que impedem uma exposição inicial maior: faturamento muito sazonal, média aproximada de <strong>R$ 734 mil por mês nos últimos 6 meses</strong>, inconsistência entre o perfil indicado no CreditBox e o faturamento apresentado, passivo bancário elevado, patrimônio líquido contábil negativo e necessidade de entender melhor a movimentação societária recente.</p>
+      <p><strong>Recomendação objetiva:</strong> aprovar limite inicial de até <strong>R$ 250 mil</strong>, exclusivamente com recebíveis formalizados, sacados confirmados, duplicidade checada e evolução condicionada à comprovação da sazonalidade do faturamento, validação da origem das movimentações societárias e histórico de liquidação limpo.</p>
     </div>
     <div class="card">
       <div class="label">risco final</div>
-      <div class="big warn">Médio</div>
-      <p class="small">Bom risco comercial, risco financeiro relevante. Crédito deve ser estruturado, não aberto como limite solto.</p>
-      <div class="bar"><i style="width:62%"></i></div>
+      <div class="big warn">Médio/Alto</div>
+      <p class="small">Risco comercial com bons sacados, mas risco financeiro, cadastral e de governança exige limite reduzido e validações prévias.</p>
+      <div class="bar"><i style="width:72%"></i></div>
     </div>
   </div>
 
   <div class="section grid g3">
     <div class="card"><div class="label">Serasa cedente</div><div class="value ok">Sem restrições</div><p class="small">PEFIN, REFIN, protestos, ações judiciais, cheques e dívidas vencidas sem apontamentos no relatório.</p></div>
-    <div class="card"><div class="label">CreditBox/VADU</div><div class="value ok">Score 930</div><p class="small">CNPJ ativo e classificado como baixo risco, com sanções nacionais e internacionais sem apontamento.</p></div>
+    <div class="card"><div class="label">CreditBox/VADU</div><div class="value warn">Score 930</div><p class="small">Apesar do score alto, o perfil indicado não condiz integralmente com o faturamento apresentado e precisa ser reconciliado com documentos contábeis e extratos operacionais.</p></div>
     <div class="card"><div class="label">BACEN empresa</div><div class="value warn">R$ 5,17 mi a vencer</div><p class="small">Há R$ 26,7 mil vencidos no SCR, baixo percentual, mas confirma forte alavancagem financeira.</p></div>
   </div>
 
@@ -74,10 +74,14 @@ table{width:100%;border-collapse:collapse;font-size:14px} th{text-align:left;col
     <div class="grid">
       <div class="risk"><div class="level red">Crítico</div><div><div class="rtitle">Patrimônio líquido contábil negativo e passivo circulante pesado</div><div class="rtext">O balanço de 2025 fecha com ativo total de R$ 4,89 mi, ativo circulante de R$ 1,35 mi e passivo circulante de R$ 9,84 mi. Há lucros/prejuízos acumulados de R$ 5,97 mi devedor, o que fragiliza a capacidade patrimonial da empresa como segunda saída.</div></div></div>
       <div class="risk"><div class="level red">Crítico</div><div><div class="rtitle">Endividamento financeiro relevante</div><div class="rtext">O passivo contábil mostra R$ 5,76 mi em empréstimos em 2025, enquanto o SCR do BACEN mostra R$ 5,17 mi em créditos a vencer. A empresa não está quebrada, mas está fortemente financiada por terceiros.</div></div></div>
+      <div class="risk"><div class="level red">Crítico</div><div><div class="rtitle">Faturamento sazonal e média recente inferior à exposição pretendida</div><div class="rtext">O faturamento apresentado mostra forte sazonalidade e, nos últimos 6 meses, indica média aproximada de R$ 734 mil por mês. Antes de ampliar limite, é necessário entender se a oscilação decorre de contratos pontuais, renovações, concentração de clientes ou atraso de reconhecimento de receita.</div></div></div>
+      <div class="risk"><div class="level amber">Alto</div><div><div class="rtitle">CreditBox não converge plenamente com o faturamento apresentado</div><div class="rtext">O score cadastral é positivo, mas não deve ser lido isoladamente. Há divergência entre o perfil apontado pela ferramenta e o volume de faturamento/documentação analisado, exigindo conciliação entre declaração de faturamento, balanços, extratos bancários e carteira de recebíveis.</div></div></div>
+      <div class="risk"><div class="level amber">Alto</div><div><div class="rtitle">Movimentações societárias e ex-sócios exigem esclarecimento</div><div class="rtext">A documentação indica movimentações envolvendo ex-sócios. É necessário entender quem são, quando saíram ou entraram, qual foi o motivo econômico/jurídico dessas alterações e se há passivos, garantias, disputas ou obrigações remanescentes associadas a essas movimentações.</div></div></div>
       <div class="risk"><div class="level amber">Alto</div><div><div class="rtitle">Custo financeiro consome resultado</div><div class="rtext">Em 2025, a empresa voltou a apresentar resultado positivo de R$ 748,8 mil, mas registrou R$ 1,48 mi em juros sobre empréstimos e R$ 355,4 mil em juros de mora. Em 2024, houve prejuízo de R$ 177,7 mil e despesa financeira de R$ 1,89 mi. A melhora existe, mas ainda é sensível ao custo da dívida.</div></div></div>
-      <div class="risk"><div class="level amber">Alto</div><div><div class="rtitle">Necessidade de crédito é fluxo, não investimento produtivo isolado</div><div class="rtext">A visita indicou descasamento de 60 a 90 dias e necessidade estimada de R$ 1 mi para três contratos. O próprio cliente reconhece que o descasamento real pode ser menor. Isso pede limite rotativo controlado por lastro, não liberação cheia antecipada.</div></div></div>
+      <div class="risk"><div class="level amber">Alto</div><div><div class="rtitle">Necessidade de crédito é fluxo, não investimento produtivo isolado</div><div class="rtext">A visita indicou descasamento de 60 a 90 dias e necessidade estimada de R$ 1 mi para três contratos. Diante da sazonalidade, da alavancagem e das pendências de validação, o limite inicial deve ser testado em patamar menor, com aumento apenas por comportamento de liquidação.</div></div></div>
       <div class="risk"><div class="level amber">Médio</div><div><div class="rtitle">Recebíveis bons, mas precisam de validação título a título</div><div class="rtext">A carteira projetada de R$ 11,03 mi é positiva, com R$ 8,16 mi em contas a receber e R$ 2,88 mi em renovações. O ponto de atenção é que pipeline não é lastro aprovado. Só deve entrar o que estiver contratado, vencível em até 90 dias, confirmado pelo sacado e sem duplicidade no CRDC/Núclea.</div></div></div>
-      <div class="risk"><div class="level amber">Médio</div><div><div class="rtitle">Garantia patrimonial existe, mas precisa de matrícula e ônus</div><div class="rtext">Márcio declara R$ 1,02 mi em bens, incluindo imóveis, e R$ 370,9 mil em dívidas. Adriano declara R$ 2,50 mi em bens e R$ 271,9 mil em dívidas. Esses bens ajudam na tese de aval, mas só pesam depois de matrícula, ônus reais, regime de casamento e anuência de cônjuge.</div></div></div>
+      <div class="risk"><div class="level amber">Médio</div><div><div class="rtitle">IR do sócio mostra recebimento de imóveis por herança</div><div class="rtext">A movimentação patrimonial pode ser legítima, mas merece atenção por envolver alteração relevante de bens. Antes de atribuir força de garantia ao patrimônio declarado, é recomendável confirmar origem, formalização da partilha, matrícula, ônus reais, regime de casamento e eventual disponibilidade para aval.</div></div></div>
+      <div class="risk"><div class="level amber">Médio</div><div><div class="rtitle">Prejuízo de baixo valor no BACEN de sócio adicional</div><div class="rtext">Há apontamento de prejuízo de aproximadamente R$ 2,7 mil no BACEN de sócio adicional. O valor é baixo, mas justamente por destoar do contexto deve ser explicado: origem da obrigação, instituição credora, data de baixa, recorrência e se há reflexo cadastral ou de comportamento.</div></div></div>
     </div>
   </div>
 
@@ -86,7 +90,8 @@ table{width:100%;border-collapse:collapse;font-size:14px} th{text-align:left;col
       <div class="section-title">Leitura financeira</div>
       <table>
         <tr><th>Indicador</th><th>2023</th><th>2024</th><th>2025</th><th>Leitura</th></tr>
-        <tr><td>Receita líquida/receitas</td><td class="money">R$ 7,16 mi</td><td class="money">R$ 8,51 mi</td><td class="money">R$ 7,91 mi</td><td>Base de receita relevante, mas sem crescimento linear.</td></tr>
+        <tr><td>Receita líquida/receitas</td><td class="money">R$ 7,16 mi</td><td class="money">R$ 8,51 mi</td><td class="money">R$ 7,91 mi</td><td>Base de receita relevante, mas sem crescimento linear e com sazonalidade importante.</td></tr>
+        <tr><td>Média dos últimos 6 meses</td><td>-</td><td>-</td><td class="money warn">R$ 734 mil/mês</td><td>Média recente reduz conforto para limite elevado e exige explicação da oscilação mensal.</td></tr>
         <tr><td>Resultado</td><td class="money bad">-R$ 1,31 mi</td><td class="money bad">-R$ 177,7 mil</td><td class="money ok">R$ 748,8 mil</td><td>Recuperação em 2025, ainda contra histórico de prejuízo.</td></tr>
         <tr><td>Caixa/disponível</td><td class="money">R$ 579,0 mil</td><td class="money bad">R$ 7,2 mil</td><td class="money warn">R$ 72,7 mil</td><td>Liquidez imediata baixa para o porte do passivo.</td></tr>
         <tr><td>Empréstimos contábeis</td><td class="money">R$ 5,91 mi</td><td class="money">R$ 6,20 mi</td><td class="money">R$ 5,76 mi</td><td>Alavancagem persistente.</td></tr>
@@ -98,11 +103,13 @@ table{width:100%;border-collapse:collapse;font-size:14px} th{text-align:left;col
       <table>
         <tr><th>Fonte</th><th>Resultado</th><th>Leitura</th></tr>
         <tr><td>Serasa CNPJ</td><td><span class="tag green">Limpo</span></td><td>Sem PEFIN, REFIN, protesto, cheque, ação judicial ou dívida vencida.</td></tr>
-        <tr><td>CreditBox</td><td><span class="tag green">Score 930</span></td><td>Baixo risco cadastral, empresa ativa, sem sanções relevantes.</td></tr>
+        <tr><td>CreditBox</td><td><span class="tag amber">Score 930</span></td><td>Score positivo, porém não condiz integralmente com o faturamento apresentado; conciliar com balanços, declaração de faturamento e extratos.</td></tr>
         <tr><td>BACEN CNPJ</td><td><span class="tag amber">R$ 5,17 mi</span></td><td>Carteira alta e R$ 26,7 mil vencidos, sem prejuízo.</td></tr>
         <tr><td>BACEN Márcio</td><td><span class="tag amber">R$ 1,66 mi</span></td><td>Exposição PF relevante, sem vencidos ou prejuízo.</td></tr>
         <tr><td>BACEN Adriano</td><td><span class="tag green">R$ 207,5 mil</span></td><td>Sem vencidos ou prejuízo.</td></tr>
-        <tr><td>BACEN sócio adicional</td><td><span class="tag amber">Prejuízo R$ 2,7 mil</span></td><td>Valor pequeno, mas deve ser identificado formalmente antes de aval.</td></tr>
+        <tr><td>BACEN sócio adicional</td><td><span class="tag amber">Prejuízo R$ 2,7 mil</span></td><td>Valor baixo, mas precisa ser entendido: origem, credor, data, recorrência e regularização.</td></tr>
+        <tr><td>IR de sócio</td><td><span class="tag amber">Herança/imóveis</span></td><td>Recebimento de imóveis por herança deve ser validado para entender natureza da movimentação patrimonial e disponibilidade real como suporte.</td></tr>
+        <tr><td>Quadro societário</td><td><span class="tag amber">Movimentações</span></td><td>Há movimentações de ex-sócios; entender quem são, motivo das alterações e eventuais obrigações remanescentes.</td></tr>
       </table>
     </div>
   </div>
@@ -124,21 +131,22 @@ table{width:100%;border-collapse:collapse;font-size:14px} th{text-align:left;col
     <div class="section-title">Condições mínimas para liberar crédito</div>
     <table>
       <tr><th>Condição</th><th>Obrigatoriedade</th><th>Motivo</th></tr>
-      <tr><td>Limite inicial</td><td><strong>Até R$ 600 mil</strong></td><td>Compatível com risco médio, BACEN alto e necessidade declarada ainda não totalmente provada.</td></tr>
+      <tr><td>Limite inicial</td><td><strong>Até R$ 250 mil</strong></td><td>Compatível com risco médio/alto, sazonalidade de faturamento, alavancagem, divergência CreditBox/faturamento e pendências societárias.</td></tr>
       <tr><td>Prazo máximo por título</td><td><strong>90 dias</strong></td><td>Casar com ciclo de recebimento informado pelo cliente.</td></tr>
       <tr><td>Lastro</td><td><strong>Contrato, NF, aceite/medição ou confirmação do sacado</strong></td><td>Sem confirmação, não operar.</td></tr>
       <tr><td>Duplicidade</td><td><strong>Consulta CRDC/Núclea antes de cada cessão</strong></td><td>Cliente já usa Omie e portais de antecipação, então o risco de dupla cessão precisa ser eliminado operacionalmente.</td></tr>
       <tr><td>Pagamento</td><td><strong>Preferencialmente direto do sacado para conta indicada/travada</strong></td><td>Evitar que o recurso passe livre pelo cedente em estrutura já alavancada.</td></tr>
-      <tr><td>Garantias</td><td><strong>Aval de Márcio e Adriano, condicionado a matrícula/ônus</strong></td><td>Há patrimônio declarado, mas a garantia só é real depois de comprovada.</td></tr>
+      <tr><td>Garantias</td><td><strong>Aval de Márcio e Adriano, condicionado a matrícula/ônus</strong></td><td>Há patrimônio declarado, inclusive movimentação de imóveis por herança, mas a garantia só é real depois de comprovada e livre de impedimentos.</td></tr>
       <tr><td>Fundo de reserva</td><td><strong>10% a 15% no início</strong></td><td>Amortece atraso curto de sacado e reduz exposição do FIDC.</td></tr>
-      <tr><td>Esteira de aumento</td><td><strong>R$ 1 milhão apenas após 60 a 90 dias sem atraso</strong></td><td>Permite testar liquidação real antes de ampliar exposição.</td></tr>
+      <tr><td>Validações adicionais</td><td><strong>Sazonalidade, CreditBox/faturamento, ex-sócios e BACEN PF</strong></td><td>Antes de qualquer aumento, esclarecer a média recente de faturamento, divergências cadastrais, motivo das movimentações societárias e prejuízo de baixo valor no BACEN.</td></tr>
+      <tr><td>Esteira de aumento</td><td><strong>Somente após 90 dias sem atraso e pendências esclarecidas</strong></td><td>Permite testar liquidação real antes de ampliar exposição, sem ancorar a aprovação inicial na necessidade declarada de R$ 1 milhão.</td></tr>
     </table>
   </div>
 
   <div class="section callout">
     <div class="section-title">Decisão recomendada</div>
-    <p><strong>Aprovar operação estruturada de antecipação de recebíveis para Afrika, com limite inicial de até R$ 600 mil, prazo máximo de 90 dias, preferência por sacados de primeira linha e liberação condicionada à validação documental de cada título.</strong></p>
-    <p>Eu não aprovaria R$ 1 milhão imediatamente porque o crédito novo entraria sobre uma estrutura já alavancada, com passivo bancário elevado e patrimônio líquido contábil negativo. O caminho mais seguro é transformar a qualidade dos sacados em proteção efetiva para o FIDC: cessão perfeita, confirmação, trava de pagamento e monitoramento. Se a carteira liquidar bem nos primeiros ciclos, a operação pode subir para R$ 1 milhão com base em comportamento, não em expectativa.</p>
+    <p><strong>Aprovar operação estruturada de antecipação de recebíveis para Afrika, com limite inicial de até R$ 250 mil, prazo máximo de 90 dias, preferência por sacados de primeira linha e liberação condicionada à validação documental de cada título.</strong></p>
+    <p>Não é recomendável aprovar R$ 1 milhão neste momento. A empresa apresenta operação real e bons sacados, mas a documentação mostra faturamento sazonal, média recente de aproximadamente R$ 734 mil por mês nos últimos 6 meses, alavancagem financeira relevante, patrimônio líquido contábil negativo, inconsistência entre CreditBox e faturamento apresentado, movimentações envolvendo ex-sócios e pontos de atenção no IR/BACEN de sócios. O crédito deve começar em patamar conservador, com cessão perfeita, confirmação de sacado, trava de pagamento e monitoramento. Qualquer aumento deve depender de liquidação sem atraso e esclarecimento formal das pendências apontadas.</p>
   </div>
 
   <div class="footer">Fonte: documentação enviada pela AG Antecipa, relatórios VADU/CreditBox, BACEN/SCR, Serasa, balanços/balancetes, declaração de faturamento, IRPF dos sócios e resumo de visita online. Documento preparado para decisão executiva de comitê.</div>
